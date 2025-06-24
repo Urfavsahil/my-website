@@ -116,29 +116,29 @@ h2{
     .todo-app {
         width: 95%;
         padding: 20px 15px 40px;
-        margin: 40px auto;
+        margin: 30px auto;
     }
 
     .row {
         flex-direction: column;
         align-items: stretch;
         gap: 10px;
-        padding: 10px;
-        border-radius: 15px;
+        padding: 0;
+        background: none;
     }
 
     input {
         width: 100%;
-        padding: 12px;
+        padding: 12px 15px;
         font-size: 16px;
-        border-radius: 20px;
+        border-radius: 25px;
     }
 
     button {
         width: 100%;
         padding: 12px;
         font-size: 16px;
-        border-radius: 20px;
+        border-radius: 25px;
     }
 
     h2 {
@@ -146,6 +146,7 @@ h2{
         text-align: center;
     }
 }
+
 body {
     overflow-x: hidden;
 }
