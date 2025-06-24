@@ -112,3 +112,44 @@ h2{
     font-size: 30px;
     
 }
+@media only screen and (max-width: 600px) {
+    .todo-app {
+        padding: 20px 15px 50px;
+        margin: 50px 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding-left: 45px;
+    }
+
+    ul li::before {
+        top: 10px;
+        left: 10px;
+        height: 24px;
+        width: 24px;
+    }
+}
+
